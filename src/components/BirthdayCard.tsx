@@ -21,7 +21,7 @@ const BirthdayCard: React.FC = () => {
           Feliz Aniversário meu amor! 🎉
         </motion.h1>
 
-        <div className="w-full aspect-square md:aspect-[9/16] bg-black/50 rounded-lg overflow-hidden">
+        <div className="w-full h-[75vh] md:h-auto md:aspect-[9/16] bg-black/50 rounded-lg overflow-hidden">
           <Carousel images={images} />
         </div>
 
